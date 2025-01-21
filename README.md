@@ -6,10 +6,24 @@ npm run dev
 ```
 
 
+
+### step 2 push project to github
 ```bash
-###step 2 push project to github
 git init
 git add .
 git commit -m "init"
 git push
+```
+
+
+### when updated code 
+```bash
+git add.
+git commit -m "init"
+git push
+```
+
+## Step 3 install React Router
+```bash
+npm i react-router
 ```
