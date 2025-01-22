@@ -10,6 +10,7 @@ import Register from '../pages/register'
 import Dashboard from '../pages/admin/Dashboard'
 import Manage from '../pages/admin/Manage'
 import Setting from '../pages/admin/Setting'
+import Recap from '../pages/recap'
 function AppRoutes() {
     return (
         <div>
@@ -22,6 +23,7 @@ function AppRoutes() {
                 <Route index element={<Home/>} />
                 <Route path="about" element={<About/>} />
                 <Route path="contact" element={<Contact/>} />
+                <Route path="recap" element={<Recap/>} />
                 <Route path="login" element={<Login/>} />
                 <Route path="register" element={<Register/>} />
                 </Route>
