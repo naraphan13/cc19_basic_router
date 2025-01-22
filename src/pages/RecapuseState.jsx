@@ -8,7 +8,7 @@ const [number,setNumber] = useState(4)
 console.log(number);
 
 const hdlIncrease = ()=>{
-console.log('Easy,useState');
+console.log('Easy,useStatee');
 
 
 }
